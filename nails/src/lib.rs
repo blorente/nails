@@ -5,7 +5,8 @@ extern crate tokio_io;
 
 pub mod execution;
 mod codec;
-mod proto;
+mod server_proto;
+mod client_proto;
 
 use std::io;
 use std::path::PathBuf;
